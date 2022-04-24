@@ -413,7 +413,7 @@ def main():
 
     print(config.inverter_ip)
     if config.debug:
-        print("statring setup")
+        print("starting setup")
         print("opening modbus")
 
     client = connect_bus(ip=config.inverter_ip,
